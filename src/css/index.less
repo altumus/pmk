@@ -1,0 +1,119 @@
+
+#firstblock{
+    background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 70.67%);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    z-index: 0;
+}
+
+.about-container{
+    margin: 4% 0 0 4%;
+}
+
+.text{
+    margin: 62px 5px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 22.4px;
+    font-weight: 400;
+    article{
+        max-width: 400px;
+        margin-left: 10%;
+    }
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.vacancies{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 2px 10px rgba(0, 58, 64, 0.2);
+    border-radius: 30px;
+    width: 80%;
+    margin: -250px auto;
+    z-index: 1;
+    position: relative;
+    padding: 23px;
+
+    span, a{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    span{
+        line-height: 50px;
+    }
+
+    a{
+        line-height: 50px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid #00AEC7;
+        background: #00AEC7;
+        border-radius: 20px;
+        padding: 0px 43px;
+    }
+}
+
+#secondblock{
+    display: block;
+}
+
+
+
+.vacancies{
+    a:active{
+        background-color: white;
+        border: 1px dashed #00AEC7;
+        color: #00AEC7;
+    }
+}
+
+@media(max-width: 1024px){
+    .container{
+        flex-direction: column;
+        img{
+            width: 100%;
+        }
+    }
+
+    .about-container{
+        .img{
+            justify-content: flex-start;
+        }
+        article{
+            margin: 0;
+        }
+        margin: 35px 10px 0px;
+    }
+
+    .vacancies{
+        text-align: center;
+        flex-direction: column;
+        padding: 15px;
+
+        span, a{
+            font-size: 16px;
+        }
+
+        a{
+            width: 50%;
+            line-height: 22.4px;
+            padding: 10px;
+            margin: auto;
+        }
+    }
+
+    #logo{
+        width: 50%;
+        height: 50%;
+    }
+}
