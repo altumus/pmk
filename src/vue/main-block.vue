@@ -4,8 +4,8 @@
         <div class="img">
             <img src="../pics/logo.svg" id="logo">
         </div>
-        <div class="text">
-            <article>
+        <div class="info">
+            <article class="text">
                 ПМК - динамично развивающаяся компания по 
                 продаже медицинского оборудования в России и Казахстане. 
                 Мы являемся официальным дилером Philips в России, 
@@ -19,7 +19,7 @@
 </div>
 
 <div class="vacancies">
-    <span>www.permedcom.ru 6+</span>
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Вакансии</a>
+    <span class="title">www.permedcom.ru 6+</span>
+    <a class="title" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Вакансии</a>
 </div>
 </template>
