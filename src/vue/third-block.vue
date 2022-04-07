@@ -3,11 +3,11 @@
     <div class="glide">
     <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
-        <li class="glide__slide"><img class="slide-img" src="../pics/1.svg"></li>
-        <li class="glide__slide"><img class="slide-img" src="../pics/2.svg"></li>
-        <li class="glide__slide"><img class="slide-img" src="../pics/3.svg"></li>
-        <li class="glide__slide"><img class="slide-img" src="../pics/4.svg"></li>
-        <li class="glide__slide"><img class="slide-img" src="../pics/5.svg"></li>
+        <li class="glide__slide"><img class="slide-img" src="../pics/1.png"></li>
+        <li class="glide__slide"><img class="slide-img" src="../pics/2.png"></li>
+        <li class="glide__slide"><img class="slide-img" src="../pics/3.png"></li>
+        <li class="glide__slide"><img class="slide-img" src="../pics/4.png"></li>
+        <li class="glide__slide"><img class="slide-img" src="../pics/5.png"></li>
         </ul>
     </div>
     <div class="glide__bullets" data-glide-el="controls[nav]">
