@@ -11,7 +11,7 @@ module.exports = {
         filename: '[name].[hash].js'
     },
     devServer:{
-        port: 8080,
+        port: 3200,
     },
 
     plugins: [
